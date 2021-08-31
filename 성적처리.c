@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // 입력받은 점수(score)에 대한 등급을 출력
-void cal_grade(int score)
+void cal_grade(int score);
 {
 	if (90 <= score && score <= 100)
 		printf("A");
